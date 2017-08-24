@@ -1,0 +1,6 @@
+LABEL Title=Python
+LABEL Maintainer="Merlin Schumacher"
+DIR {BASEDIR}/{TITLE}
+COPY .gitignore
+FILE README.md
+CMD ["git","init"]
