@@ -1,6 +1,7 @@
-LABEL Title=Python
+LABEL Type=Python
 LABEL Maintainer="Merlin Schumacher"
-DIR {BASEDIR}/{TITLE}
-COPY .gitignore
+DIR {TITLE}-dev
+DIR assets
+COPY .gitignore .gitignore
 FILE README.md
-CMD ["git","init"]
+CMD git init
